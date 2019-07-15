@@ -6,5 +6,6 @@ global with sharing class MyAccount {
         return [select name,accountnumber,industry,fax from Account limit 100];
         
     }
+    //venky from the my account test
 
 }
